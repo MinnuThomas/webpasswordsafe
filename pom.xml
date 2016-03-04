@@ -213,9 +213,9 @@
 
   <!--  GWT dependencies (from central repo) -->
     <dependency>
- <groupId>com.extjs.gxt</groupId>
-   <artifactId>2.2.5</artifactId>
-   <version>2.2.5</version>
+ <groupId>com.extjs</groupId>
+   <artifactId>gxt</artifactId>
+   <version>2.2.0</version>
    <scope>provided</scope>
   </dependency>
   <dependency>
