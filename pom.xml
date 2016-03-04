@@ -56,7 +56,12 @@
     <name>JBoss Public Repository Group</name>
     <url>http://repository.jboss.org/nexus/content/groups/public</url>
   </repository>
- </repositories>
+   <repository>
+    <id>sysnetintrepo-gxt-repo</id>
+    <name>sysnetintrepo gxt repo</name>
+    <url>http://sysnetintrepo.com/repository/</url>
+  </repository>
+   </repositories>
  
  <dependencies>
   <dependency>
