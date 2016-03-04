@@ -227,12 +227,7 @@
     <classifier>sources</classifier>
     <scope>provided</scope>
   </dependency> 
-  <dependency>
-   <groupId>com.extjs</groupId>
-   <artifactId>gxt</artifactId>
-   <version>${gxt.version}</version>
-   <scope>provided</scope>
-  </dependency>
+  
 
   <!--  optional dependencies -->
   <!--  OWASP ESAPI Encryption -->
