@@ -46,6 +46,11 @@
  </properties>
  
  <repositories>
+       <repository>
+    <id>sysnetintrepo-gxt-repo</id>
+    <name>sysnetintrepo gxt repo</name>
+    <url>http://sysnetintrepo.com/repository/</url>
+  </repository>
   <repository>
    <id>gilead-maven-repo</id>
    <name>Gilead repo</name>
@@ -56,12 +61,7 @@
     <name>JBoss Public Repository Group</name>
     <url>http://repository.jboss.org/nexus/content/groups/public</url>
   </repository>
-   <repository>
-    <id>sysnetintrepo-gxt-repo</id>
-    <name>sysnetintrepo gxt repo</name>
-    <url>http://sysnetintrepo.com/repository/</url>
-  </repository>
-   </repositories>
+ </repositories>
  
  <dependencies>
   <dependency>
@@ -212,6 +212,12 @@
   </dependency>
 
   <!--  GWT dependencies (from central repo) -->
+    <dependency>
+ <groupId>com.extjs</groupId>
+   <artifactId>gxt</artifactId>
+   <version>2.2.5</version>
+   <scope>provided</scope>
+  </dependency>
   <dependency>
    <groupId>com.google.gwt</groupId>
    <artifactId>gwt-servlet</artifactId>
@@ -237,13 +243,7 @@
     <classifier>sources</classifier>
     <scope>provided</scope>
   </dependency> 
-  <dependency>
-   <groupId>com.extjs</groupId>
-   <artifactId>gxt</artifactId>
-   <version>${gxt.version}</version>
-   <scope>provided</scope>
-  </dependency>
-  
+
 
   <!--  optional dependencies -->
   <!--  OWASP ESAPI Encryption -->
